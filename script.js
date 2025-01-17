@@ -17,7 +17,7 @@ function saveWord() {
 function searchWord() {
     const wordSearch = document.getElementById('word').value;
     let index = words.indexOf(wordSearch);
-    if (index == -1) {
+    if (index === -1) {
         alert('The searched word was not found!');
     } else {
         alert('The searched word was found!');
